@@ -1,0 +1,905 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/CE61E8D4/DAY4.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 15">
+<link id=3DMain-File rel=3DMain-File href=3DDAY4.htm>
+<link rel=3DFile-List href=3D"DAY4_files/filelist.xml">
+</head>
+
+<body lang=3Den-US style=3D'font-family:Calibri;font-size:11.0pt'>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:7.1187in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:7.1187in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt'><span
+style=3D'font-weight:bold;background:#CCC1D9'>Day 4 – Variables, Data Typ=
+es &amp;
+Operators(Python Basics for AI Engineer)</span></p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.3145in;margin-left:0in;width:4.9951=
+in'>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:18.0pt'><span
+style=3D'font-weight:bold;background:#CCC1D9'><span
+style=3D'mso-spacerun:yes'> </span>=3D=3D&gt; Why Day 4 is EXTREMELY Impor=
+tant</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>Before AI, ML,=
+ or
+GenAI models:</p>
+
+<p style=3D'margin:0in;font-size:14.0pt'><span style=3D'font-family:"Segoe =
+UI Emoji"'>&#128073;
+</span><span style=3D'font-weight:bold;font-family:Calibri'>We must know ho=
+w to
+store data and operate on it</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>Everything in =
+AI
+depends on:</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Variables → store dat=
+a</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Data Types → define d=
+ata
+     nature</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Operators → perform l=
+ogic
+     &amp; math</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-size:14.0pt'><span style=3D'font-family:"Segoe =
+UI Emoji"'>❌</span><span
+style=3D'font-family:Calibri'> No variables → no data</span></p>
+
+<p style=3D'margin:0in;font-size:14.0pt'><span style=3D'font-family:"Segoe =
+UI Emoji"'>❌</span><span
+style=3D'font-family:Calibri'> No data types → errors</span></p>
+
+<p style=3D'margin:0in;font-size:14.0pt'><span style=3D'font-family:"Segoe =
+UI Emoji"'>❌</span><span
+style=3D'font-family:Calibri'> No operators → no computation</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>This is the <s=
+pan
+style=3D'font-weight:bold'>foundation of all programming</span>.</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:6.5145in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:1.9305in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt'><span
+style=3D'background:#CCC1D9'>4.1. Variable</span></p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.152in;margin-left:0in;width:6.5145i=
+n'>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:18.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji";background:#CCC1D9'>=3D=3D&gt;</span><span
+style=3D'font-weight:bold;font-family:Calibri;background:#CCC1D9'> 2. What =
+is a
+Variable?</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:16.0pt'><span
+style=3D'font-weight:bold;background:#E5E0EC'>Definition =3D=3D&gt; </span>=
+</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>A <span
+style=3D'font-weight:bold'>variable</span> is a name given to a memory loca=
+tion
+that stores data.</p>
+
+<p style=3D'margin:0in;font-size:14.0pt'><span style=3D'font-family:"Segoe =
+UI Emoji"'>--
+&gt; </span><span style=3D'font-family:Calibri'>Simple words:</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'><span
+style=3D'font-weight:bold'>Variable =3D container (box) that holds value</s=
+pan></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:16.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji";background:#E5E0EC'>=3D=3D &gt; </span><span
+style=3D'font-weight:bold;font-family:Calibri;background:#E5E0EC'>Real-Life
+Example</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Name =3D &quot;Ramakant=
+&quot;</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Age =3D 22</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Salary =3D 50000</span>=
+</li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>Just like:</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>A bottle holds water</s=
+pan></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>A variable holds data</=
+span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:16.0pt'><span
+style=3D'font-weight:bold;background:#E5E0EC'>=3D=3D&gt; Syntax (How to Cre=
+ate
+Variable)</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>variable_name =
+=3D
+value</p>
+
+<p style=3D'margin:0in;font-family:"Segoe UI Emoji";font-size:16.0pt'>&nbsp=
+;</p>
+
+<p style=3D'margin:0in;font-size:16.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji";background:#E5E0EC'>=3D=3D&gt;E</span><span
+style=3D'font-weight:bold;font-family:Calibri;background:#E5E0EC'>xample</s=
+pan></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>name =3D
+&quot;Ramakant&quot;<br />
+age =3D 22<br />
+height =3D 5.9</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:18.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji";background:#E5E0EC'>=3D=3D&gt;</span><span
+style=3D'font-weight:bold;font-family:Calibri;background:#E5E0EC'> Rules for
+Defining Variables </span></p>
+
+<p style=3D'margin:0in;font-size:16.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji";background:#E5E0EC'>--&gt; </span><span
+style=3D'font-weight:bold;font-family:Calibri;background:#E5E0EC'>Allowed</=
+span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Letters (a–z, A–Z)<=
+/span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Numbers (after letters)=
+</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Underscore (_)</span></=
+li>
+</ul>
+
+<p style=3D'margin:0in;font-size:16.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji";background:#E5E0EC'>-- &gt; </span><span
+style=3D'font-weight:bold;font-family:Calibri;background:#E5E0EC'>Not Allow=
+ed</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Starting with number</s=
+pan></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Special symbols (@, #, =
+$)</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Python keywords</span><=
+/li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:16.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji";background:#E5E0EC'>=3D=3D &gt; </span><span
+style=3D'font-weight:bold;font-family:Calibri;background:#E5E0EC'>Invalid
+Examples</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:14.0pt'><span style=3D'font-family:Calibri=
+'>1name
+=3D &quot;Amit&quot;<span style=3D'mso-spacerun:yes'>      </span># </=
+span><span
+style=3D'font-family:"Segoe UI Emoji"'>❌</span><span style=3D'font-family=
+:Calibri'><br
+/>
+my-name =3D &quot;Amit&quot;<span style=3D'mso-spacerun:yes'>   </span># =
+</span><span
+style=3D'font-family:"Segoe UI Emoji"'>❌</span><span style=3D'font-family=
+:Calibri'><br
+/>
+for =3D 10<span style=3D'mso-spacerun:yes'>            </span># =
+</span><span
+style=3D'font-family:"Segoe UI Emoji"'>❌</span><span style=3D'font-family=
+:Calibri'>
+keyword</span></p>
+
+<p style=3D'margin:0in;font-family:"Segoe UI Emoji";font-size:16.0pt'>&nbsp=
+;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:16.0pt'><span
+style=3D'font-weight:bold;background:#E5E0EC'>=3D=3D &gt; Valid Examples</s=
+pan></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>student_name =
+=3D
+&quot;Amit&quot;<br />
+student1 =3D 101<br />
+_age =3D 22</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:16.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji";background:#E5E0EC'>=3D=3D &gt; </span><span
+style=3D'font-weight:bold;font-family:Calibri;background:#E5E0EC'><span
+style=3D'mso-spacerun:yes'> </span>Why Variables Are Needed</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:16.0pt'>&nbsp;</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Store user input</span>=
+</li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Store model data</span>=
+</li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Store predictions</span=
+></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Store configuration val=
+ues</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-size:14.0pt'><span style=3D'font-family:"Segoe =
+UI Emoji";
+background:#E5E0EC'>-- &gt;</span><span style=3D'font-family:Calibri;backgr=
+ound:
+#E5E0EC'>Every AI program uses </span><span style=3D'font-weight:bold;font-=
+family:
+Calibri;background:#E5E0EC'>thousands of variables</span></p>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:6.5145in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:2.2451in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt'><span
+style=3D'background:#00B0F0'>4.2. Data Types</span></p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.152in;margin-left:0in;width:6.5145i=
+n'>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:18.0pt'><span
+style=3D'font-weight:bold;background:#E5E0EC'>=3D=3D&gt; What are Data Type=
+s?</span></p>
+
+<p style=3D'margin:0in;font-size:16.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji"'>--&gt; </span><span style=3D'font-weight:bold;
+font-family:Calibri'><span style=3D'mso-spacerun:yes'> </span>Definition</=
+span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+style=3D'font-weight:bold'>Data types define the type of value stored in a
+variable.</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>Python needs to
+know:</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Is it number?</span></l=
+i>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Is it text?</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Is it collection?</span=
+></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:18.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji";background:#E5E0EC'>--&gt;</span><span
+style=3D'font-weight:bold;font-family:Calibri;background:#E5E0EC'> Built-in=
+ Data
+Types in Python</span></p>
+
+<p style=3D'margin:0in;font-size:16.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji"'>1️⃣</span><span style=3D'font-weight:bold;
+font-family:Calibri'> Integer (int)</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>Whole numbers<=
+/p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>x =3D 10<br />
+y =3D -5</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'><span
+style=3D'font-weight:bold'>Use case:</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Age</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Count</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Quantity</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:16.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji"'>2️⃣</span><span style=3D'font-weight:bold;
+font-family:Calibri'> Float (float)</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>Decimal number=
+s</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>price =3D 99.9=
+9<br
+/>
+accuracy =3D 0.89</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'><span
+style=3D'font-weight:bold'>Use case:</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>ML accuracy</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Loss values</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Measurements</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:16.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji"'>3️⃣</span><span style=3D'font-weight:bold;
+font-family:Calibri'> String (str)</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>Text data</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>name =3D
+&quot;Python&quot;<br />
+message =3D &quot;AI Engineer&quot;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'><span
+style=3D'font-weight:bold'>Use case:</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>NLP</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Chatbots</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>User input</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:16.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji"'>4️⃣</span><span style=3D'font-weight:bold;
+font-family:Calibri'> Boolean (bool)</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>True or False<=
+/p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>is_active =3D =
+True<br
+/>
+is_logged_in =3D False</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'><span
+style=3D'font-weight:bold'>Use case:</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Conditions</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Model decisions</span><=
+/li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:16.0pt'><span
+style=3D'font-weight:bold;background:#E5E0EC'>--&gt; Check Data Type</span>=
+</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>x =3D 10<br
+/>
+print(type(x))</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Out : int</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:18.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji";background:#E5E0EC'>--&gt;</span><span
+style=3D'font-weight:bold;font-family:Calibri;background:#E5E0EC'> Collecti=
+on
+Data Types </span></p>
+
+<p style=3D'margin:0in;font-size:16.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji"'>5️⃣</span><span style=3D'font-weight:bold;
+font-family:Calibri'> List (list)</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>Ordered &amp;
+changeable</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>marks =3D [80,=
+ 85, 90]</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'><span
+style=3D'font-weight:bold'>Use case:</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Dataset rows</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>ML features</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:16.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji"'>6️⃣</span><span style=3D'font-weight:bold;
+font-family:Calibri'> Tuple (tuple)</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>Ordered &amp;
+immutable</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>coordinates =
+=3D (10,
+20)</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'><span
+style=3D'font-weight:bold'>Use case:</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Fixed values</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Model configurations</s=
+pan></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:16.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji"'>7️⃣</span><span style=3D'font-weight:bold;
+font-family:Calibri'> Set (set)</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>Unordered &amp;
+unique</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>unique_ids =3D=
+ {1, 2,
+3}</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'><span
+style=3D'font-weight:bold'>Use case:</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Remove duplicates</span=
+></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Feature uniqueness</spa=
+n></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:16.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji"'>8️⃣</span><span style=3D'font-weight:bold;
+font-family:Calibri'> Dictionary (dict)</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>Key-value pair=
+s</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>student =3D {<=
+br
+/>
+<span style=3D'mso-spacerun:yes'>    </span>&quot;name&quot;:
+&quot;Amit&quot;,<br />
+<span style=3D'mso-spacerun:yes'>    </span>&quot;age&quot;: 21,<br />
+<span style=3D'mso-spacerun:yes'>    </span>&quot;marks&quot;: 85<br />
+}</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'><span
+style=3D'font-weight:bold'>Use case:</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>JSON data</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>API responses</span></l=
+i>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>AI model inputs</span><=
+/li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:18.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji"'>&#128257;</span><span style=3D'font-weight:bo=
+ld;
+font-family:Calibri'> 7. Type Conversion (Very Common in AI)</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>age =3D
+&quot;22&quot;<br />
+age =3D int(age)</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>Out: 22</p>
+
+<p style=3D'margin:0in;font-size:14.0pt'><span style=3D'font-family:"Segoe =
+UI Emoji"'>--
+&gt; </span><span style=3D'font-family:Calibri'>Required when:</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Reading user input</spa=
+n></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Loading CSV data</span>=
+</li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:6.7645in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:.25in;width:2.1263in=
+'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt'><span
+style=3D'background:#CC99FF'>4.3 </span><span style=3D'font-weight:bold;bac=
+kground:
+#CC99FF'>Operators</span></p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4034in;margin-left:0in;width:6.7645=
+in'>
+
+<p style=3D'margin:0in;font-size:18.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji";background:#E5E0EC'>--&gt; </span><span
+style=3D'font-weight:bold;font-family:Calibri;background:#E5E0EC'><span
+style=3D'mso-spacerun:yes'> </span>What are Operators?</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:18.0pt'><span
+style=3D'font-weight:bold;background:#E5E0EC'><span
+style=3D'mso-spacerun:yes'> </span>Definition</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'><span
+style=3D'font-weight:bold'>Operators perform operations on variables and va=
+lues.</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>Without operat=
+ors:</p>
+
+<p style=3D'margin:0in;font-size:14.0pt'><span style=3D'font-family:"Segoe =
+UI Emoji"'>❌</span><span
+style=3D'font-family:Calibri'> No calculation</span></p>
+
+<p style=3D'margin:0in;font-size:14.0pt'><span style=3D'font-family:"Segoe =
+UI Emoji"'>❌</span><span
+style=3D'font-family:Calibri'> No comparison</span></p>
+
+<p style=3D'margin:0in;font-size:14.0pt'><span style=3D'font-family:"Segoe =
+UI Emoji"'>❌</span><span
+style=3D'font-family:Calibri'> No logic</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:18.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji";background:#E5E0EC'>--&gt;</span><span
+style=3D'font-weight:bold;font-family:Calibri;background:#E5E0EC'> Arithmet=
+ic
+Operators</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>a =3D 10<br />
+b =3D 3</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>print(a + b)<s=
+pan
+style=3D'mso-spacerun:yes'>   </span># Addition </p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>13</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>print(a - b)<s=
+pan
+style=3D'mso-spacerun:yes'>   </span># Subtraction</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>7</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>print(a * b)<s=
+pan
+style=3D'mso-spacerun:yes'>   </span># Multiplication</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>30</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>print(a / b)<s=
+pan
+style=3D'mso-spacerun:yes'>   </span># Division</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>3.33</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>print(a // b)<=
+span
+style=3D'mso-spacerun:yes'>  </span># Floor division</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>3</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>print(a % b)<s=
+pan
+style=3D'mso-spacerun:yes'>   </span># Modulus</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>1</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>print(a ** b)<=
+span
+style=3D'mso-spacerun:yes'>  </span># Power</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>1000</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'><span
+style=3D'font-weight:bold'>--&gt; AI Use:</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Loss calculation</span>=
+</li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Feature scaling</span><=
+/li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Optimization</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:18.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji";background:#E5E0EC'>--&gt;</span><span
+style=3D'font-weight:bold;font-family:Calibri;background:#E5E0EC'> Assignme=
+nt
+Operators</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>x =3D 5<br />
+x +=3D 2<span style=3D'mso-spacerun:yes'>   </span># x =3D x + 2</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>Used in:</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Loops</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Counters</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Training steps</span></=
+li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:18.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji";background:#E5E0EC'>--&gt; </span><span
+style=3D'font-weight:bold;font-family:Calibri;background:#E5E0EC'>Comparison
+Operators</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>a =3D 10<br />
+b =3D 5</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>a &gt; b<br />
+a =3D=3D b<br />
+a !=3D b</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'><span
+style=3D'font-weight:bold'>AI Use:</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Threshold checks</span>=
+</li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Accuracy evaluation</sp=
+an></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:18.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji";background:#E5E0EC'>--&gt;</span><span
+style=3D'font-weight:bold;font-family:Calibri;background:#E5E0EC'> Logical
+Operators</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>(age &gt; 18) =
+and
+(is_logged_in =3D=3D True)</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'><span
+style=3D'font-weight:bold'>AI Use:</span></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Decision making</span><=
+/li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Rule-based systems</spa=
+n></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:18.0pt'><span style=3D'font-weight:bold;
+font-family:"Segoe UI Emoji";background:#E5E0EC'>--&gt; </span><span
+style=3D'font-weight:bold;font-family:Calibri;background:#E5E0EC'>Membership
+Operators</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>&quot;a&quot; =
+in
+&quot;data&quot;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:14.0pt'>Used in:</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>NLP</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:14.0pt'>Text search</span></li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>Created with OneNote.</p>
+
+</div>
+
+</body>
+
+</html>
